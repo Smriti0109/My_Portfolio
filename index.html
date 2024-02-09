@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Young+Serif&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    /> -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <!-- <img src="logo.png" alt="logo" class="logo" /> -->
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Resume</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="header-text">
+          <span id="element"></span><br />
+          <!-- <p>Full Stack Developer</p> -->
+          <h1>Hi , I'm <span>Smriti</span> <br />Singh from India</h1>
+        </div>
+      </div>
+    </div>
+
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="Smriti singh.png" alt="myself" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              Hello there! I'm Smriti Singh, a dedicated third-year engineering
+              student pursuing a degree in computer science. I have a natural
+              curiosity and a deep passion for learning new things, which drives
+              me to constantly explore and experiment.
+              <br />
+
+              My journey into the world of computer science has been an
+              exhilarating one. I've had the privilege of diving into diverse
+              subjects, from programming languages to algorithms, and I'm
+              continually amazed by the limitless possibilities that technology
+              offers.
+              <br />
+              I m looking for a internship to enhance my experience about the
+              corporate world. I have knowledge about various programming
+              languages like c++,c,java,python,ruby,haskell,etc. I have no
+              experience but looking to gain anytime.
+            </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-links" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('certifications')">
+                Certifications
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span>Language</span><br />C++ / Java / Python / Ruby / Erlang
+                </li>
+                <li><span>Database</span><br />Mysql</li>
+                <li>
+                  <span>Web Development</span><br />HTML / CSS /Javascript /
+                  Bootstrap
+                </li>
+                <li>
+                  <span>Data structure & Algorithm</span><br />Arrays /Strings
+                  /LL / Stack & Queue
+                </li>
+                <li><span>Operating System</span><br />Window / Linux</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="certifications">
+              <ul>
+                <li>
+                  <span>NPTEL</span><br />Introduction to Operating System
+                </li>
+                <li><span>NPTEL</span><br />Database management system</li>
+                <li><span>UDEMY</span><br />Data Structure & algorithm</li>
+                <li><span>COURSERA</span><br />Cyber Security</li>
+                <li><span>COURSERA</span><br />OOPs in java</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>2017-2018</span><br />10th at DAV Public School</li>
+                <li><span>2019-2020</span><br />12th at Central Academy</li>
+                <li>
+                  <span>2021-2025</span><br />Btech at Bharati Vidyapeeth
+                  College of Engineering <br />CGPA - 9.7
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ----------------- -->
+
+    <div id="projects">
+      <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="projects-list">
+          <div>
+            <i class="fa-brands fa-spotify"></i>
+            <h2>Spotify Cloner</h2>
+            <p>
+              The Spotify Cloner project involves creating a user interface that
+              allows users to search for songs, create playlists, and play music
+              seamlessly.Tech used - HTML,CSS & JAVASCRIPT
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-gamepad"></i>
+            <h2>Simon Says Game</h2>
+            <p>
+              This project involves the use of CSS HTML and JS . This game is
+              quite fun and can be played by all age groups . It will calculate
+              the score and hence detemine the Winner.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-lock"></i>
+            <h2>File Encryption & Decryption</h2>
+            <p>
+              This project offer opportunities to explore the principles of
+              symmetric encryption, the importance of key management, and the
+              trade-offs between security and efficiency in cryptographic
+              algorithms.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-database"></i>
+            <h2>College Admission database</h2>
+            <p>
+              Technology used is - mysql. In this project we can easily
+              shortlist the colleges with student percentile.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-address-book"></i>
+            <h2>Phonebook</h2>
+            <p>
+              This project created by the help of HTML,CSS & JS . We are using
+              internal storage of browser to store the contacts so it will not
+              disappear after refreshing page.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-microchip"></i>
+            <h2>Smoke Detector</h2>
+            <p>
+              This project combines hardware components such as smoke sensors,
+              microcontrollers, and alarm systems with programming and circuit
+              design to create a simple yet effective solution.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- -----------------------portfolio-------------------------- -->
+
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">Resume</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="Smriti Singh_resume_ss_img.jpg" alt="Resume" />
+          </div>
+          <div class="layer">
+            <div class="wrap">
+              <a href="Smriti Singh_resume_ss.pdf" target="_blank">
+              <button class="buton">Download</button>
+            </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- ----------------------contact---------------------------- -->
+
+
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i>smritisingh0109@gmail.com</p>
+            <p><i class="fa-solid fa-square-phone"></i>8407875045</p>
+            <div class="social-icons">
+              <a href="" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+              <a href="https://www.linkedin.com/in/smriti-singh-29588125b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="https://github.com/Smriti0109" target="_blank"><i class="fa-brands fa-github"></i></a>
+              <a href="https://wa.link/7ltv16" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+          </div>
+
+          <div class="contact-right">
+            <form>
+              <input type="text" name="Name"placeholder="Your Name" required>
+              <input type="email"name="email" placeholder="Your Email" required>
+              <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-links");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-links");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["FULL STACK DEVELOPER", "&amp; WEB DESIGNER"],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
