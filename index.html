@@ -32,13 +32,15 @@
       <div class="container">
         <nav>
           <!-- <img src="logo.png" alt="logo" class="logo" /> -->
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Resume</a></li>
-            <li><a href="#">Contact</a></li>
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#experience">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
           </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
         </nav>
         <div class="header-text">
           <span id="element"></span><br />
@@ -151,7 +153,7 @@
               quite fun and can be played by all age groups . It will calculate
               the score and hence detemine the Winner.
             </p>
-            <a href="#">Learn more</a>
+            <a href="https://smriti0109.github.io/Simon-s-Game/">Learn more</a>
           </div>
           <div>
             <i class="fa-solid fa-lock"></i>
@@ -181,7 +183,7 @@
               internal storage of browser to store the contacts so it will not
               disappear after refreshing page.
             </p>
-            <a href="#">Learn more</a>
+            <a href="https://vedang1510.github.io/Digital-Phonebook-Systems-Enhancing-Accessibility-and-Organization/">Learn more</a>
           </div>
           <div>
             <i class="fa-solid fa-microchip"></i>
@@ -199,7 +201,7 @@
 
     <!-- -----------------------portfolio-------------------------- -->
 
-    <div id="portfolio">
+    <!-- <div id="portfolio">
       <div class="container">
         <h1 class="sub-title">Resume</h1>
         <div class="work-list">
@@ -213,6 +215,48 @@
             </a>
             </div>
           </div>
+        </div>
+      </div>
+    </div> -->
+
+
+    <div id="experience">
+      <div class="container">
+        <h1 class="sub-title">Experience</h1>
+        <div class="projects-list">
+          <div class="codsoft">
+            <i class="fa-solid fa-briefcase"></i>
+            <h2>CODSOFT</h2>
+            <p>
+              
+              The Spotify Cloner project involves creating a user interface that
+              allows users to search for songs, create playlists, and play music
+              seamlessly.Tech used - HTML,CSS & JAVASCRIPT
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div class="cognifyz">
+            <i class="fa-solid fa-briefcase"></i>
+            <h2>COGNIFYZ</h2>
+            <p>
+              This project involves the use of CSS HTML and JS . This game is
+              quite fun and can be played by all age groups . It will calculate
+              the score and hence detemine the Winner.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div  class="cr">
+            <i class="fa-solid fa-briefcase"></i>
+            <h2>CODINGRAJA</h2>
+            <p>
+              This project offer opportunities to explore the principles of
+              symmetric encryption, the importance of key management, and the
+              trade-offs between security and efficiency in cryptographic
+              algorithms.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          
         </div>
       </div>
     </div>
@@ -234,6 +278,7 @@
               <a href="https://github.com/Smriti0109" target="_blank"><i class="fa-brands fa-github"></i></a>
               <a href="https://wa.link/7ltv16" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
             </div>
+            <a href="SmritiSingh_ComputerEngineering (1).pdf" download class="btn btn2">DOWNLOAD CV</a>
           </div>
 
           <div class="contact-right">
@@ -246,6 +291,9 @@
             </form>
           </div>
         </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright @ Smriti singh. </p>
       </div>
     </div>
     <script>
@@ -268,6 +316,17 @@
         strings: ["FULL STACK DEVELOPER", "&amp; WEB DESIGNER"],
         typeSpeed: 50,
       });
+    </script>
+
+    <script>
+      var sidemenu=document.getElementById("sidemenu");
+
+      function openmenu(){
+        sidemenu.style.right="0"
+      }
+      function closemenu(){
+        sidemenu.style.right="-200px"
+      }
     </script>
   </body>
 </html>
